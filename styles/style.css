@@ -111,17 +111,11 @@ span {
 
 @media (max-width: 580px) {
     article {
-        width: 90%;
+        width: 50%;
     }
 
     footer {
         display: flex;
         flex-direction: column;
-    }
-}
-
-@media (max-width: 581px) {
-    article {
-        width: 40%;
     }
 }
