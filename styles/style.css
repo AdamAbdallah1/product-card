@@ -51,6 +51,7 @@ footer button{
     gap: 10px;
     padding: 15px;
     font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
     width: 200px;
     border: none;
     cursor: pointer;
@@ -86,6 +87,7 @@ footer button:hover {
     color: rgb(51, 51, 51);
     display: flex;
     gap: 5px;
+    font-size: 20px;
 }
 
 .product-price, 
@@ -96,7 +98,7 @@ footer button:hover {
 
 .product-description {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 span {
