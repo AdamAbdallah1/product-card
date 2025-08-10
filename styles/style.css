@@ -119,3 +119,9 @@ span {
         flex-direction: column;
     }
 }
+
+@media (min-width: 581px) {
+    article {
+        width: 80%;
+    }
+}
