@@ -14,6 +14,7 @@ article {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     margin-top: 10vh;
+    flex-wrap: nowrap;
 }
 
 figure {
@@ -26,6 +27,7 @@ figure {
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
 }
 
 figure:hover {
@@ -105,4 +107,15 @@ span {
     text-decoration: line-through;
     font-size: 15px;
     color: gray;
+}
+
+@media (max-width: 480px) {
+    article {
+        width: 80%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
