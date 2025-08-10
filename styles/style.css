@@ -120,8 +120,8 @@ span {
     }
 }
 
-@media (min-width: 581px) {
+@media (max-width: 581px) {
     article {
-        width: 80%;
+        width: 40%;
     }
 }
